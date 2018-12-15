@@ -1,20 +1,18 @@
 {
   "name": "onroutechange",
-  "version": "0.0.2",
-  "description": "Listen to route events for SPA.",
+  "version": "0.0.3",
+  "description": "Listen to route changes for single-page applications.",
+  "license": "MIT",
+  "author": "AJ Hsu <im.ajhsu@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "build:umd": "browserify browser.js -s onroutechange -t [ babelify ] | uglifyjs -c > dist/onroutechange.min.js",
-    "test": "jest"
+    "build": "browserify browser.js -s onroutechange -t [ babelify ] | uglifyjs -c > dist/onroutechange.min.js"
   },
-  "author": "AJ Hsu <im.ajhsu@gmail.com>",
-  "license": "DBAD-PL",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babelify": "^8.0.0",
     "browserify": "^16.2.2",
-    "jest": "^23.4.1",
-    "uglifyify": "^5.0.1"
+    "uglify-js": "^3.4.9"
   }
 }

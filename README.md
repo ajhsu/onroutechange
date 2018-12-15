@@ -1,13 +1,13 @@
 # onroutechange
-The polyfill enables you to listen to SPA's route change events via a customized `window.onroutechange` callback.
+The polyfill enables you to listen to route changes by customized `window.onroutechange` callback.
 
-*(Similar to [`window.onhashchange`](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange) API, but the customized callback is for `history.pushState`)*
+It's quite similar to [`window.onhashchange`](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange) API, but for `history.pushState`. Could be useful for single-page applications.
 
 ## Usage
 
-Step1. Include the following script tag:
+Step1. Insert the following script tag into your webpage:
 ```html
-<script src="https://rawgit.com/ajhsu/onroutechange/master/dist/onroutechange.min.js"></script>
+<script src="https://unpkg.com/onroutechange/dist/onroutechange.min.js"></script>
 ```
 
 Step2. Register the `window.onroutechange` callback, for example:
@@ -20,4 +20,4 @@ window.onroutechange = function(state) {
 
 ## License
 
-DON'T BE A DICK PUBLIC LICENSE, see [LICENSE](https://github.com/ajhsu/onroutechange/blob/master/LICENSE) file for details.
+MIT
