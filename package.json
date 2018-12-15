@@ -1,18 +1,25 @@
 {
-  "name": "onroutechange",
-  "version": "0.0.3",
-  "description": "Listen to route changes for single-page applications.",
-  "license": "MIT",
-  "author": "AJ Hsu <im.ajhsu@gmail.com>",
-  "main": "index.js",
-  "scripts": {
-    "build": "browserify browser.js -s onroutechange -t [ babelify ] | uglifyjs -c > dist/onroutechange.min.js"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babelify": "^8.0.0",
-    "browserify": "^16.2.2",
-    "uglify-js": "^3.4.9"
-  }
+	"name": "onroutechange",
+	"version": "0.0.4",
+	"description": "Listen to route changes for single-page applications.",
+	"homepage": "https://github.com/ajhsu/onroutechange",
+	"bugs": {
+		"url": "https://github.com/ajhsu/onroutechange/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ajhsu/onroutechange.git"
+	},
+	"license": "MIT",
+	"author": "AJ Hsu <im.ajhsu@gmail.com>",
+	"scripts": {
+		"build": "browserify browser.js -s onroutechange -t [ babelify ] | uglifyjs -c > dist/onroutechange.min.js"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babelify": "^8.0.0",
+		"browserify": "^16.2.2",
+		"uglify-js": "^3.4.9"
+	}
 }
