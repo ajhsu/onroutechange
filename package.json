@@ -1,6 +1,6 @@
 {
   "name": "onroutechange",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Listen to route changes for single-page applications.",
   "homepage": "https://github.com/ajhsu/onroutechange",
   "bugs": {
